@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import CreateSurvey from './CreateSurvey';
+import App from './components/App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter }  from 'react-router-dom';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <CreateSurvey />
-  </React.StrictMode>,
+<BrowserRouter>
+  <App />
+</BrowserRouter>,
   document.getElementById('root')
 );
 

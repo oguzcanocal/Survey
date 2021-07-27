@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-function App() {
+function CreateSurvey() {
   const [inputList, setInputList] = useState([{ value: null }]);
 
   function addAnswer() {
@@ -78,4 +79,4 @@ function App() {
   );
 }
 
-export default App;
+export default CreateSurvey;
